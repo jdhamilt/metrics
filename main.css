@@ -1,0 +1,554 @@
+:root {
+    --header-blue: #112e51;
+    --text-blue: #012169;
+    --background-grey: #f1f1f1;
+    --white: #ffffff;
+
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: var(--text-blue);
+    background-color: var(--background-grey);
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.full-height {
+    height: 100%;
+    padding: 10px 25px;
+}
+
+.playbook-logo-img {
+    width: auto;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header-left,
+.header-middle {
+    float: left;
+}
+
+.header-middle-two {
+    margin-left: 45%;
+}
+
+.header-right {
+    float: right;
+    padding-top: 15px;
+    color: white;
+}
+
+.header-right a:visited {
+    color: var(--white);
+}
+
+.header-right a {
+    color: var(--white);
+}
+
+#help-me {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    /* cursor: pointer; */
+}
+
+.playbook-header {
+    background-color: var(--header-blue);
+    color: var(--white);
+    padding: 0 19px;
+}
+
+#report-header-text {
+    text-align: center;
+}
+
+.executive-dashboard-text {
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+    z-index: 9;
+    top: 15px;
+}
+
+.executive-help-text {
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pdf-link {
+    font-weight: 600;
+    color: var(--white);
+    padding-right: 15px;
+}
+
+.insight-box {
+    width: 100%;
+    color: var(--text-blue);
+    /*padding-left: 10%;*/
+}
+
+.help-me-box {
+    width: 90%;
+}
+
+.insight-box-left {
+    width: 100%;
+    padding: 50px;
+    float: left;
+    padding: 0px 25px;
+}
+
+.insight-box-left img {
+    width: calc(100% - 50px)
+}
+
+.insight-box-right {
+    width: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 27px;
+    color: var(--text-blue);
+}
+
+.insight-box::after,
+.playbook-header-content::after,
+.insight-box-right::after,
+.insight-preview-row::after {
+    display: block;
+    clear: both;
+    content: ' ';
+}
+
+iframe {
+    width: 97%;
+    height: calc(100vh - 125px);
+    border: 2px solid #ccc;
+    display: none;
+
+    /* border-bottom: 3px solid #ccc; */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        color: var(--text-blue);
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    .full-height {
+        height: 100%;
+        padding: 10px 25px;
+    }
+
+    .playbook-logo-img {
+        width: auto;
+        height: 50px;
+    }
+
+    .header-left,
+    .header-middle {
+        float: left;
+    }
+
+    .header-left {
+        position: relative;
+        left: -17px;
+        margin-top: -15px;
+        top: 6px;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .playbook-header {
+        background-color: var(--text-blue);
+        color: var(--white);
+        padding: 15px 35px 0;
+    }
+
+    #report-header-text {
+        text-align: center;
+    }
+
+    .insight-box {
+        width: 100%;
+        color: var(--text-blue);
+    }
+
+    .insight-box-left {
+        width: 100%;
+        padding: 50px;
+        float: left;
+        padding: 0px 25px;
+    }
+
+    .insight-box-left img {
+        width: calc(100% - 50px)
+    }
+
+    .insight-box-right {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 27px;
+        color: var(--text-blue);
+    }
+
+    .playbook-header-content {
+        padding: 10px;
+    }
+
+    .insight-box::after,
+    .playbook-header-content::after,
+    .insight-box-right::after {
+        display: block;
+        clear: both;
+        content: ' ';
+    }
+
+    iframe {
+        width: 100%;
+        height: calc(100vh - 125px);
+        border: 2px solid #ccc;
+        /* border-bottom: 3px solid #ccc; */
+    }
+
+    .insight-box-right h3 {
+        margin-bottom: 10px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .fa-info-circle {
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    .insight-box h1 {
+        color: var(--text-blue);
+    }
+
+    .header-left .insight-list {
+        position: absolute;
+        background-color: var(--header-blue);
+        width: 450px;
+    }
+
+    .header-middle.close .insight-list {
+        top: -1000px;
+    }
+
+    .header-middle.open .insight-list {
+        top: 30px;
+    }
+
+    .playbook-content {
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .toc-list {
+        list-style: none;
+    }
+
+    .toc-list a,
+    .toc-list a:visited {
+        color: var(--white);
+    }
+
+    /*
+Styling for animation n modals n such
+*/
+    #modal.closed {
+        display: none;
+    }
+
+    #modal.open {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(50, 50, 50, 0.50);
+    }
+
+    .fa-times {
+        position: relative;
+        cursor: pointer;
+        float: right;
+        bottom: 28px;
+        left: 25px;
+        color: var(--text-blue);
+        font-size: 20px;
+    }
+
+    #inner-modal.closed {
+        position: fixed;
+        width: 1px;
+        height: 1px;
+        left: 0;
+        top: 0;
+    }
+
+    #inner-modal.open {
+        background-color: var(--white);
+        width: 50%;
+        position: fixed;
+        left: 25%;
+        top: 25%;
+        padding: 30px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        border: 1px solid var(--header-blue);
+    }
+
+    #btt {
+        position: fixed;
+        cursor: pointer;
+        text-align: center;
+        bottom: -23px;
+        right: 0px;
+        background-color: rgba(150, 150, 150, 0.5);
+        color: rgba(250, 250, 250, .50);
+        padding: 5px 5px;
+        transition: .3s;
+        display: none;
+    }
+
+    #btt:hover {
+        bottom: 0;
+        transition: .3s;
+    }
+}
+
+.insight-box-right h3 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.fa-info-circle {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.insight-box h1 {
+    color: var(--text-blue);
+}
+
+.header-middle .insight-list {
+    position: absolute;
+    background-color: var(--header-blue);
+    width: 350px;
+    border-radius: 15px;
+}
+
+.header-middle.close .insight-list {
+    top: -1000px;
+}
+
+.header-middle.open .insight-list {
+    top: 30px;
+}
+
+.playbook-content {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.toc-list {
+    list-style: none;
+}
+
+.toc-list a,
+.toc-list a:visited {
+    color: var(--white);
+}
+
+/*
+Styling for animation n modals n such
+*/
+#modal.closed {
+    display: none;
+}
+
+#modal.open {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.50);
+}
+
+.fa-times {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    bottom: 28px;
+    left: 25px;
+    color: var(--text-blue);
+    font-size: 20px;
+}
+
+#inner-modal.closed {
+    position: fixed;
+    width: 1px;
+    height: 1px;
+    left: 0;
+    top: 0;
+}
+
+#inner-modal.open {
+    background-color: var(--white);
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /*border: 1px solid #012169;*/
+}
+
+#btt {
+    position: fixed;
+    cursor: pointer;
+    text-align: center;
+    bottom: -23px;
+    right: 0px;
+    background-color: rgba(150, 150, 150, 0.5);
+    color: rgba(250, 250, 250, .50);
+    padding: 5px 5px;
+    transition: .3s;
+}
+
+#btt:hover {
+    bottom: 0;
+    transition: .3s;
+}
+
+.DHASeals {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+    right: 300px;
+    text-align: center;
+}
+
+.DHASeals img {
+    width: 14%;
+    padding: 7px;
+}
+
+.DHASeals img:last-of-type {
+    width: 14%;
+    padding-left: 0px;
+}
+
+.insight-preview {
+    width: 21%;
+    /* padding: 20px; */
+    text-align: center;
+    display: inline-block;
+    margin: 2% 1%;
+    box-shadow: 10px 10px 5px darkgrey;
+    border-radius: 25px;
+    border-color: var(--header-blue);
+    border-style: double;
+    padding: 5px;
+    overflow: auto;
+    height: 39%;
+}
+
+/* .insight-preview:first-child {
+    margin-left: 25px;
+} */
+
+.insight-preview-title {
+    width: 100%;
+}
+
+.insight-preview-title h3 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.insight-preview-image {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    /*border: 1px solid #012169;*/
+}
+
+.insight-preview-image img {
+    width: 70%;
+}
+
+.insight-preview-description {
+    width: 100%;
+    padding-top: 10px;
+    float: right;
+}
+
+/* .insight-preview {
+    float: left;
+} */
+
+.insight-preview-row {
+    width: 92%;
+    margin: 2% 4%;
+    text-align: center;
+}
+
+.insight-click {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.opener {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--header-blue);
+    border-radius: 25px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

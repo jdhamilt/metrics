@@ -1,0 +1,14 @@
+.loadingGif {
+    height: calc(100vh - 125px);
+    width: 100%;
+}
+
+.gifHolder {
+    margin-left: 33%;
+    margin-top: 13%;
+}
+
+.gifHolder img {
+    width: auto;
+    height: auto;
+}

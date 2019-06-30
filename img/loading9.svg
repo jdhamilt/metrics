@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin: auto; background: rgb(241, 242, 243); display: block; shape-rendering: auto;" width="600" height="250" preserveAspectRatio="xMidYMid">
+<style type="text/css">
+  text {
+    text-anchor: middle; font-size: 191px; opacity: 0;
+  }
+</style>
+<g transform="translate(300,125)">
+  <g transform="translate(0,0)"><g class="path" style="transform-origin: -42.015px -2.07759px; transform: matrix(1, 0, 0, 1, 0, 0); animation: 1s linear -0.44s infinite normal forwards running bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd;"><path d="M25.12 1.91L25.12 1.91L25.12 1.91Q16.81 1.91 12.70-2.96L12.70-2.96L12.70-2.96Q8.60-7.83 8.60-14.80L8.60-14.80L8.60-14.80Q8.60-21.77 12.89-26.55L12.89-26.55L12.89-26.55Q17.19-31.32 25.02-31.32L25.02-31.32L25.02-31.32Q32.85-31.32 37.44-27.31L37.44-27.31L37.44-27.31Q42.02-23.30 42.02-15.28L42.02-15.28L42.02-15.28Q42.02-7.26 37.72-2.67L37.72-2.67L37.72-2.67Q33.42 1.91 25.12 1.91" fill="#6895c4" stroke="none" stroke-width="none" transform="translate(-67.32501220703125,12.627404174804688)" style="fill: rgb(24, 100, 175);"></path></g><g class="path" style="transform-origin: 8.60001px -2.07759px; transform: matrix(1, 0, 0, 1, 0, 0); animation: 1s linear -0.22s infinite normal forwards running bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd;"><path d="M75.73 1.91L75.73 1.91L75.73 1.91Q67.42 1.91 63.32-2.96L63.32-2.96L63.32-2.96Q59.21-7.83 59.21-14.80L59.21-14.80L59.21-14.80Q59.21-21.77 63.51-26.55L63.51-26.55L63.51-26.55Q67.81-31.32 75.64-31.32L75.64-31.32L75.64-31.32Q83.47-31.32 88.05-27.31L88.05-27.31L88.05-27.31Q92.64-23.30 92.64-15.28L92.64-15.28L92.64-15.28Q92.64-7.26 88.34-2.67L88.34-2.67L88.34-2.67Q84.04 1.91 75.73 1.91" fill="#6895c4" stroke="none" stroke-width="none" transform="translate(-67.32501220703125,12.627404174804688)" style="fill: rgb(104, 149, 196);"></path></g><g class="path" style="transform-origin: 59.215px -2.07759px; transform: matrix(1, 0, 0, 1, 0, 0); animation: 1s linear 0s infinite normal forwards running bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd;"><path d="M126.35 1.91L126.35 1.91L126.35 1.91Q118.04 1.91 113.93-2.96L113.93-2.96L113.93-2.96Q109.83-7.83 109.83-14.80L109.83-14.80L109.83-14.80Q109.83-21.77 114.12-26.55L114.12-26.55L114.12-26.55Q118.42-31.32 126.25-31.32L126.25-31.32L126.25-31.32Q134.08-31.32 138.67-27.31L138.67-27.31L138.67-27.31Q143.25-23.30 143.25-15.28L143.25-15.28L143.25-15.28Q143.25-7.26 138.95-2.67L138.95-2.67L138.95-2.67Q134.66 1.91 126.35 1.91" fill="#6895c4" stroke="none" stroke-width="none" transform="translate(-67.32501220703125,12.627404174804688)" style="fill: rgb(25, 29, 58);"></path></g></g>
+</g>
+<style id="bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd" data-anikit="">@keyframes bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.138,0.2541,0.2177,0.8747);
+    transform: translate(0,0px) scaleY(1);
+  }
+  37% {
+    animation-timing-function: cubic-bezier(0.7679,0.1817,0.8401,0.7167);
+    transform: translate(0,-6.993px) scaleY(1);
+  }
+  72.2% {
+    animation-timing-function: cubic-bezier(0.1045,0.2026,0.2224,0.9608);
+    transform: translate(0,0px) scaleY(1);
+  }
+  87.2% {
+    animation-timing-function: cubic-bezier(0.7463,0.2314,0.8159,0.6941);
+    transform: translate(0,19.056px) scaleY(0.603);
+  }
+  100% {
+    transform: translate(0,0px) scaleY(1);
+  }
+}</style><style id="bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd" data-anikit="">@keyframes bounce-309dcac5-b0b2-4d61-8de4-e3352e9a0bcd
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.138,0.2541,0.2177,0.8747);
+    transform: translate(0,0px) scaleY(1);
+  }
+  37% {
+    animation-timing-function: cubic-bezier(0.7679,0.1817,0.8401,0.7167);
+    transform: translate(0,-6.993px) scaleY(1);
+  }
+  72.2% {
+    animation-timing-function: cubic-bezier(0.1045,0.2026,0.2224,0.9608);
+    transform: translate(0,0px) scaleY(1);
+  }
+  87.2% {
+    animation-timing-function: cubic-bezier(0.7463,0.2314,0.8159,0.6941);
+    transform: translate(0,19.056px) scaleY(0.603);
+  }
+  100% {
+    transform: translate(0,0px) scaleY(1);
+  }
+}</style></svg>
