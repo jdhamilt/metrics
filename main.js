@@ -151,7 +151,7 @@ PERFORMANCE_DESCRIPTION += '<li>View a task’s Actual Duration against Target D
 // Please keep the descriptionTitle and shortDescription as close to the same # of characters as possible
 
 var insights = [{
-            "descriptionTitle": "mJAD Migration Statistics",
+            "descriptionTitle": "DHITS Demo A",
             "shortdescription": "This dashboard shows the migration status of objects to the mJAD down to the site level. All data is real-time and can be filtered by Service or Region.",
             "description": mJAD_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + eriADEngineId + '&id=' + mJADInsight,
@@ -159,7 +159,7 @@ var insights = [{
         },
         {
 
-            "descriptionTitle": "IMS Historical Task Variance",
+            "descriptionTitle": "DHITS Demo B",
             "shortdescription": "This dashboard describes the task variance from the IMS for Quarter 2 by comparing the baseline duration to the actual duration.",
             "description": TASK_VAR_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsHistoricalInsight,
@@ -167,7 +167,7 @@ var insights = [{
         },
         {
 
-            "descriptionTitle": "IMS Performance by Quarter",
+            "descriptionTitle": "DHITS Demo C",
             "shortdescription": "This dashboard compares the historical variance for tasks across sites segmented by fiscal year and uses the IMS published on the previous Friday.",
             "description": PERFORMANCE_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsPerformanceInsight,
@@ -175,7 +175,7 @@ var insights = [{
         },
         {
 
-            "descriptionTitle": "D2D Progress Trendline",
+            "descriptionTitle": "DHITS Demo D",
             "shortdescription": "This dashboard shows the trendline of a sites D2D completion over time by compiling the IMS on a weekly basis, broken down by site.",
             "description": PERFORMANCE_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + historicalTrackingEngineId + '&id=' + d2dProgressInsight,
