@@ -10,15 +10,15 @@ RUN apt-get update \
  && echo 'Finished installing dependencies'
 
 # Install npm production packages
-COPY package.json /app/
+# COPY package.json /app/
 RUN cd /app; npm install --production
 RUN cd /app;  npm install -g http-server
 
 COPY . /app
 
 ENV NODE_ENV production
-ENV PORT 3000
+ENV PORT 8080
 
-EXPOSE 3000
+EXPOSE 8080
 
-CMD ["npm", "/app"]
+CMD ["http-server]

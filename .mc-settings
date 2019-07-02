@@ -1,6 +1,7 @@
 {
   "contextRoot": "",
   "internalPort": "",
+  "internalDebugPort": "",
   "healthCheck": "",
   "watchedFiles": {
     "includeFiles": [
