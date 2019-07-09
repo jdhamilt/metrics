@@ -1,6 +1,6 @@
 {
   "contextRoot": "",
-  "internalPort": "",
+  "internalPort": "3000",
   "internalDebugPort": "",
   "healthCheck": "",
   "watchedFiles": {

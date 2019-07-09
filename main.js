@@ -154,7 +154,7 @@ var insights = [{
             "descriptionTitle": "DHITS Demo A",
             "shortdescription": "This dashboard shows the migration status of objects to the mJAD down to the site level. All data is real-time and can be filtered by Service or Region.",
             "description": mJAD_DESCRIPTION,
-            "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + eriADEngineId + '&id=' + mJADInsight,
+            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
             "image": "img/gauge.png"
         },
         {
