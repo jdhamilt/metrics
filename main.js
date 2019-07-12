@@ -1,4 +1,27 @@
 /* QUICK CHANGE VARIABLES */
+var descriptionTitle1 = 'DHITS Demo A';
+var descriptionTitle2 = 'DHITS Demo B';
+var descriptionTitle3 = 'DHITS Demo C';
+var descriptionTitle4 = 'DHITS Demo D';
+
+
+// images from img folder
+var image1 = 'gauge.png';
+var image2 = 'schedule.png';
+var image3 = 'single-axis.png';
+var image4 = 'trendline2.png';
+
+/*var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
+var descriptionTitle2 = 'DHITS Demo: IMS Quater2 Dashbord';
+var descriptionTitle3 = 'DHITS Demo: IMS Dashboard';
+var descriptionTitle4 = 'DHITS Demo: D2D Dashboard';
+
+// images from img folder
+var image1 = 'globe.png';
+var image2 = 'dha7.png';
+var image3 = 'single-axis.png';
+var image4 = 'trendline2.png';
+*/
 // for mesoc deployments, feFolder will need to contain /app as well
 var feFolder = 'SemossWebAppUI',
     eriADEngineId = '29b1dcf4-538f-437b-8b93-98feec7f53ae'
@@ -8,7 +31,11 @@ var feFolder = 'SemossWebAppUI',
     imsPerformanceInsight = '5c02ae7f-df54-4b7f-a5a2-85d601b874af',
     imsHistoricalInsight = '',
     historicalTrackingEngineId = '',
-    d2dProgressInsight = ''; 
+    d2dProgressInsight = '';
+
+
+
+
 
 //check if user is using Chrome or a different browser
 if (window.navigator.userAgent.indexOf('Chrome') === -1) {
@@ -81,7 +108,7 @@ var openInsight = function (insightIndex) {
     playbookHtml += '<div id="' + insights[insightIndex].descriptionTitle.toLowerCase().split(' ').join('-') + '"><h3>' + insights[insightIndex].descriptionTitle + '<i class="fa fa-info-circle" id="insight-main-' + insightIndex + '"></i></h3></div>';
     playbookHtml += '</div>';
     playbookHtml += '<div class="insight-box-left">';
-    playbookHtml += '<iframe id="iframeHolder" onload="hideLoading()" src="' + insights[insightIndex].url + '"></iframe>';
+    playbookHtml += '<iframe id="iframeHolder" onload="hideLoading()" style="background-color: #FFFFFF;" src="' + insights[insightIndex].url + '"></iframe>';
     playbookHtml += '<div id="iframeLoading"><div class = "gifHolder"><img class="loadingGif" src="img/loading9.svg"></div></div>';
     playbookHtml += '</div>';
     playbookHtml += '</div>';
@@ -128,7 +155,7 @@ var openHome = function () {
 
 
 var mJAD_DESCRIPTION = '<h2 style="text-align:center;">mJAD Migration Statistics Dashboard</h2>';
-mJAD_DESCRIPTION += '<p>Welcome to the mJAD Migration Statistics Dashboard. On this page, you are able to:<p>';
+mJAD_DESCRIPTION += '<p>Welcome to the mJAD. Migration Statistics Dashboard. On this page, you are able to:<p>';
 mJAD_DESCRIPTION += '<ol><li>View summary mJAD Statistics</li>';
 mJAD_DESCRIPTION += '<li>Filter mJAD Statistics by Service and/or Region</li>';
 mJAD_DESCRIPTION += '<li>View mJAD Statistics for the selected Service(s) and Region(s), with % Migrated statistics filtered on the selections</li>';
@@ -151,35 +178,35 @@ PERFORMANCE_DESCRIPTION += '<li>View a task’s Actual Duration against Target D
 // Please keep the descriptionTitle and shortDescription as close to the same # of characters as possible
 
 var insights = [{
-            "descriptionTitle": "DHITS Demo A",
+            "descriptionTitle": descriptionTitle1,
             "shortdescription": "This dashboard shows the migration status of objects to the mJAD down to the site level. All data is real-time and can be filtered by Service or Region.",
             "description": mJAD_DESCRIPTION,
             "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
-            "image": "img/gauge.png"
+            "image": 'img/' + image1
         },
         {
 
-            "descriptionTitle": "DHITS Demo B",
+            "descriptionTitle": descriptionTitle2,
             "shortdescription": "This dashboard describes the task variance from the IMS for Quarter 2 by comparing the baseline duration to the actual duration.",
             "description": TASK_VAR_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsHistoricalInsight,
-            "image": "img/schedule.png"
+            "image": 'img/' + image2
         },
         {
 
-            "descriptionTitle": "DHITS Demo C",
+            "descriptionTitle": descriptionTitle3,
             "shortdescription": "This dashboard compares the historical variance for tasks across sites segmented by fiscal year and uses the IMS published on the previous Friday.",
             "description": PERFORMANCE_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsPerformanceInsight,
-            "image": "img/single-axis.png"
+            "image": 'img/' + image3
         },
         {
 
-            "descriptionTitle": "DHITS Demo D",
+            "descriptionTitle": descriptionTitle4,
             "shortdescription": "This dashboard shows the trendline of a sites D2D completion over time by compiling the IMS on a weekly basis, broken down by site.",
             "description": PERFORMANCE_DESCRIPTION,
             "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + historicalTrackingEngineId + '&id=' + d2dProgressInsight,
-            "image": "img/trendline2.png"
+            "image": 'img/' + image4
         }
 		
     ],
