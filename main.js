@@ -11,6 +11,8 @@ var image2 = 'schedule.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 */
+
+var kunalTest = 'tetVar'
 var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
 var descriptionTitle2 = 'DHITS Demo: IMS Quater2 Dashbord';
 var descriptionTitle3 = 'DHITS Demo: IMS Dashboard';
