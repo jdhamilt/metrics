@@ -1,4 +1,4 @@
-/* QUICK CHANGE VARIABLES */
+/* QUICK CHANGE VARIABLES 
 var descriptionTitle1 = 'DHITS Demo A';
 var descriptionTitle2 = 'DHITS Demo B';
 var descriptionTitle3 = 'DHITS Demo C';
@@ -10,8 +10,8 @@ var image1 = 'gauge.png';
 var image2 = 'schedule.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
-
-/*var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
+*/
+var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
 var descriptionTitle2 = 'DHITS Demo: IMS Quater2 Dashbord';
 var descriptionTitle3 = 'DHITS Demo: IMS Dashboard';
 var descriptionTitle4 = 'DHITS Demo: D2D Dashboard';
@@ -21,7 +21,7 @@ var image1 = 'globe.png';
 var image2 = 'dha7.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
-*/
+
 // for mesoc deployments, feFolder will need to contain /app as well
 var feFolder = 'SemossWebAppUI',
     eriADEngineId = '29b1dcf4-538f-437b-8b93-98feec7f53ae'
