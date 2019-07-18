@@ -12,15 +12,14 @@ var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 */
 
-var kunalTest = 'tetVar'
 var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
-var descriptionTitle2 = 'DHITS Demo: IMS Quater2 Dashbord';
-var descriptionTitle3 = 'DHITS Demo: IMS Dashboard';
-var descriptionTitle4 = 'DHITS Demo: D2D Dashboard';
+var descriptionTitle2 = 'DHITS Demo: Opioid KPI Comparison';
+var descriptionTitle3 = 'DHITS Demo: Clinical Trials Dashboard';
+var descriptionTitle4 = 'DHITS Demo: TeleHealth Dashboard';
 
 // images from img folder
 var image1 = 'globe.png';
-var image2 = 'heatmap.png';
+var image2 = 'heatmap-echarts.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 
@@ -181,7 +180,7 @@ PERFORMANCE_DESCRIPTION += '<li>View a task’s Actual Duration against Target D
 
 var insights = [{
             "descriptionTitle": descriptionTitle1,
-            "shortdescription": "This dashboard shows the migration status of objects to the mJAD down to the site level. All data is real-time and can be filtered by Service or Region.",
+            "shortdescription": "This dashboard showcases crime statistics in the Greater Chicago Area. The dataset is of April 2019 with over 8 million records.",
             "description": mJAD_DESCRIPTION,
             "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
             "image": 'img/' + image1
@@ -189,25 +188,25 @@ var insights = [{
         {
 
             "descriptionTitle": descriptionTitle2,
-            "shortdescription": "This dashboard describes the task variance from the IMS for Quarter 2 by comparing the baseline duration to the actual duration.",
+            "shortdescription": "This dashboard compares various KPIs related to Opioid Use and creates a heatmap showing their correlation to each other.",
             "description": TASK_VAR_DESCRIPTION,
-            "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsHistoricalInsight,
+            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=single&engine=fd5c8fbb-8f7b-4b71-901c-3e45c166bdab&id=fa82ae4d-dae7-4485-a6e1-1dbbe2658101&panel=0",
             "image": 'img/' + image2
         },
         {
 
             "descriptionTitle": descriptionTitle3,
-            "shortdescription": "This dashboard compares the historical variance for tasks across sites segmented by fiscal year and uses the IMS published on the previous Friday.",
+            "shortdescription": "This dashboard clusters common disease studies and clinical trials across the country using factors such as location, study results, recruiting, and status.",
             "description": PERFORMANCE_DESCRIPTION,
-            "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + imsPerformanceEngineId + '&id=' + imsPerformanceInsight,
+            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=98e8057b-f05d-44db-9d29-39b50d3cf75f&id=948cae5d-cd1f-406c-8fbe-af84632449a7",
             "image": 'img/' + image3
         },
         {
 
             "descriptionTitle": descriptionTitle4,
-            "shortdescription": "This dashboard shows the trendline of a sites D2D completion over time by compiling the IMS on a weekly basis, broken down by site.",
+            "shortdescription": "This dashboard shows insights around telehealth encounters between patients and providers at various locations. It identifies popular sites to providers and common care provided using MEPRS3 code.",
             "description": PERFORMANCE_DESCRIPTION,
-            "url": window.location.origin + '/' + feFolder + '/#!/insight?type=multi&engine=' + historicalTrackingEngineId + '&id=' + d2dProgressInsight,
+            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=6197cd9a-9c91-4527-b1ce-42192497031b&id=390642b7-b21c-41cd-9e9b-c134e3399bdd",
             "image": 'img/' + image4
         }
 		

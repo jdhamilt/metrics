@@ -1,15 +1,24 @@
 :root {
-    --header-blue: #112e51;
-    --text-blue: #012169;
+    --header: rgb(13, 60, 13);
+    --text: rgb(13, 60, 13);
+
+    --header: #112e51;
+    --text: #012169;
+
     --background-grey: #f1f1f1;
     --white: #ffffff;
+    --backup-header-blue: #112e51;
+    --backup-text-blue: #012169;
+    --backup-header-green: rgb(8, 42, 8);
+    --backup-text-green:  rgb(13, 60, 13);
+
 
 }
 
 body {
     font-family: sans-serif;
     margin: 0;
-    color: var(--text-blue);
+    color: var(--text);
     background-color: var(--background-grey);
 }
 
@@ -59,7 +68,7 @@ h3 {
 }
 
 .playbook-header {
-    background-color: var(--header-blue);
+    background-color: var(--header);
     color: var(--white);
     padding: 0 19px;
 }
@@ -91,7 +100,7 @@ h3 {
 
 .insight-box {
     width: 100%;
-    color: var(--text-blue);
+    color: var(--text);
     /*padding-left: 10%;*/
 }
 
