@@ -7,7 +7,7 @@ var descriptionTitle4 = 'DHITS Demo D';
 
 // images from img folder
 var image1 = 'gauge.png';
-var image2 = 'schedule.png';
+var image2 = 'dha7.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 */
@@ -20,7 +20,7 @@ var descriptionTitle4 = 'DHITS Demo: D2D Dashboard';
 
 // images from img folder
 var image1 = 'globe.png';
-var image2 = 'dha7.png';
+var image2 = 'schedule.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 
