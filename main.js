@@ -20,7 +20,7 @@ var descriptionTitle4 = 'DHITS Demo: D2D Dashboard';
 
 // images from img folder
 var image1 = 'globe.png';
-var image2 = 'schedule.png';
+var image2 = 'heatmap.png';
 var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 
