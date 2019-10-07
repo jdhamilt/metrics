@@ -1,4 +1,4 @@
-/* QUICK CHANGE VARIABLES 
+/* QUICK CHANGE VARIABLES
 var descriptionTitle1 = 'DHITS Demo A';
 var descriptionTitle2 = 'DHITS Demo B';
 var descriptionTitle3 = 'DHITS Demo C';
@@ -12,10 +12,10 @@ var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 */
 
-var descriptionTitle1 = 'DHITS Demo: Chicago Crime Statistics';
-var descriptionTitle2 = 'DHITS Demo: Opioid KPI Comparison';
-var descriptionTitle3 = 'DHITS Demo: Clinical Trials Dashboard';
-var descriptionTitle4 = 'DHITS Demo: TeleHealth Dashboard';
+var descriptionTitle1 = 'VA Demo: Chicago Crime Statistics';
+var descriptionTitle2 = 'VA Demo: Opioid KPI Comparison';
+var descriptionTitle3 = 'VA Demo: Clinical Trials Dashboard';
+var descriptionTitle4 = 'VA Demo: TeleHealth Dashboard';
 
 // images from img folder
 var image1 = 'globe.png';
@@ -209,7 +209,7 @@ var insights = [{
             "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=6197cd9a-9c91-4527-b1ce-42192497031b&id=390642b7-b21c-41cd-9e9b-c134e3399bdd",
             "image": 'img/' + image4
         }
-		
+
     ],
     playbookHtml = '',
     titles = [],
