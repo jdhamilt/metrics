@@ -182,7 +182,7 @@ var insights = [{
             "descriptionTitle": descriptionTitle1,
             "shortdescription": "This dashboard showcases crime statistics in the Greater Chicago Area. The dataset is of April 2019 with over 8 million records.",
             "description": mJAD_DESCRIPTION,
-            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
+            "url": "http://icp-proxy.icp4mm-8aac621ed4b4fc45658f52ccdbbe9118-0001.us-east.containers.appdomain.cloud:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
             "image": 'img/' + image1
         },
         {
@@ -190,7 +190,7 @@ var insights = [{
             "descriptionTitle": descriptionTitle2,
             "shortdescription": "This dashboard compares various KPIs related to Opioid Use and creates a heatmap showing their correlation to each other.",
             "description": TASK_VAR_DESCRIPTION,
-            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=single&engine=fd5c8fbb-8f7b-4b71-901c-3e45c166bdab&id=fa82ae4d-dae7-4485-a6e1-1dbbe2658101&panel=0",
+            "url": "http://icp-proxy.icp4mm-8aac621ed4b4fc45658f52ccdbbe9118-0001.us-east.containers.appdomain.cloud:30828/SemossWeb/#!/insight?type=single&engine=fd5c8fbb-8f7b-4b71-901c-3e45c166bdab&id=fa82ae4d-dae7-4485-a6e1-1dbbe2658101&panel=0",
             "image": 'img/' + image2
         },
         {
@@ -198,7 +198,7 @@ var insights = [{
             "descriptionTitle": descriptionTitle3,
             "shortdescription": "This dashboard clusters common disease studies and clinical trials across the country using factors such as location, study results, recruiting, and status.",
             "description": PERFORMANCE_DESCRIPTION,
-            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=98e8057b-f05d-44db-9d29-39b50d3cf75f&id=948cae5d-cd1f-406c-8fbe-af84632449a7",
+            "url": "http://icp-proxy.icp4mm-8aac621ed4b4fc45658f52ccdbbe9118-0001.us-east.containers.appdomain.cloud:30828/SemossWeb/#!/insight?type=multi&engine=98e8057b-f05d-44db-9d29-39b50d3cf75f&id=948cae5d-cd1f-406c-8fbe-af84632449a7",
             "image": 'img/' + image3
         },
         {
@@ -206,7 +206,7 @@ var insights = [{
             "descriptionTitle": descriptionTitle4,
             "shortdescription": "This dashboard shows insights around telehealth encounters between patients and providers at various locations. It identifies popular sites to providers and common care provided using MEPRS3 code.",
             "description": PERFORMANCE_DESCRIPTION,
-            "url": "http://dhacluster-proxy-962e3c61-1924685-wdc04.lb.bluemix.net:30828/SemossWeb/#!/insight?type=multi&engine=6197cd9a-9c91-4527-b1ce-42192497031b&id=390642b7-b21c-41cd-9e9b-c134e3399bdd",
+            "url": "http://icp-proxy.icp4mm-8aac621ed4b4fc45658f52ccdbbe9118-0001.us-east.containers.appdomain.cloud:30828/SemossWeb/#!/insight?type=multi&engine=6197cd9a-9c91-4527-b1ce-42192497031b&id=390642b7-b21c-41cd-9e9b-c134e3399bdd",
             "image": 'img/' + image4
         }
 
