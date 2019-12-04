@@ -12,10 +12,10 @@ var image3 = 'single-axis.png';
 var image4 = 'trendline2.png';
 */
 
-var descriptionTitle1 = 'VA Demo: Chicago Crime Statistics';
-var descriptionTitle2 = 'VA Demo: Opioid KPI Comparison';
-var descriptionTitle3 = 'VA Demo: Clinical Trials Dashboard';
-var descriptionTitle4 = 'VA Demo: TeleHealth Dashboard';
+var descriptionTitle1 = 'DHA Demo: Chicago Crime Statistics';
+var descriptionTitle2 = 'DHA Demo: Opioid KPI Comparison';
+var descriptionTitle3 = 'DHA Demo: Clinical Trials Dashboard';
+var descriptionTitle4 = 'DHA Demo: TeleHealth Dashboard';
 
 // images from img folder
 var image1 = 'globe.png';
