@@ -180,7 +180,7 @@ PERFORMANCE_DESCRIPTION += '<li>View a task’s Actual Duration against Target D
 
 var insights = [{
             "descriptionTitle": descriptionTitle1,
-            "shortdescription": "This dashboard showcases crime statistics in the Greater Chicago Area. The dataset is of April 2019 with over 8 million records.",
+            "shortdescription": "This dashboard showcases health statistics. The dataset is of March 2020 with over 8 million records.",
             "description": mJAD_DESCRIPTION,
             "url": "http://icp-proxy.icp4mm-8aac621ed4b4fc45658f52ccdbbe9118-0001.us-east.containers.appdomain.cloud:30828/SemossWeb/#!/insight?type=multi&engine=51ec8011-a654-4785-97f3-39bdf5ee15df&id=d444c057-d2aa-45b8-93aa-2d9f25289ac1",
             "image": 'img/' + image1
